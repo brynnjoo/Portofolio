@@ -8,12 +8,12 @@ import "./nprogress.css";
 import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
-	title: "Alvalens | Portofolio",
+	title: "Bryan | Portofolio",
 	description:
-		"My name is Alvalens, I'm a web developer and I'm passionate about it. I'm currently studying at Universitas Negeri Malang.",
-	author: "Alvalen Shafelbilyunazra",
+		"My name is Bryan Jo, I'm a frontend developer and I'm passionate about it. I'm currently studying at Universitas Bina Nusantara.",
+	author: "Bryan Jo",
 	siteUrl: "https://www.alvalens.my.id",
-	applicationName: "Alvalens",
+	applicationName: "Bryan Jo",
 	keywords: [
 		"alvalens",
 		"alvalen",

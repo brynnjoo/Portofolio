@@ -60,10 +60,9 @@ export default function Page() {
 						</h1>
 						<Hr />
 						<p className="title  text-xl mt-4 tracking-wider text-gray-900 leading-[1.7rem] mb-5">
-							List of my projects that I have done and{" "}
+							List of my projects that I have done {" "}
 							<span className="bg-transparent md:bg-gray-100 bg-opacity-50 xl:bg-transparent">
 								{" "}
-								currently working on.
 							</span>
 						</p>
 						<motion.div
@@ -273,9 +272,6 @@ export default function Page() {
 						opacity: 1,
 					}}
 					className="flex justify-center items-center flex-col my-5 self-start ">
-					<Button variation="primary">
-						<Link href="projects/archive">View In Archive</Link>
-					</Button>
 				</motion.div>
 			</main>
 		</>

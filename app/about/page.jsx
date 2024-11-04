@@ -18,7 +18,7 @@ import Education from "./(education)/education.jsx";
 // images
 import Me1 from "@/public/img/me1.jpg";
 import Me2 from "@/public/img/me2.jpg";
-import Me3 from "@/public/img/me3.jpg";
+import Me3 from "@/public/img/me.jpg";
 import Hr from "@/components/Hr";
 
 export default function Page() {
@@ -43,7 +43,7 @@ export default function Page() {
 							transition={{ ease: "circOut", duration: 1 }}
 							className="bg-slate-300 rounded-sm h-[400px] md:h-[600px] w-[80vw] md:w-[30vw] grayscale hover:grayscale-0 ">
 							<Image
-								src={Me2}
+								src={Me1}
 								alt="Alvalens"
 								layout="fill"
 								objectFit="cover"
@@ -98,7 +98,7 @@ export default function Page() {
 									}}
 									className="w-full h-full">
 									<Image
-										src={Me1}
+										src={Me2}
 										alt="Alvalens"
 										layout="fill"
 										objectFit="cover"
@@ -121,7 +121,7 @@ export default function Page() {
 									transition={{ delay: 0.3 }}
 									className="w-full h-full">
 									<Image
-										src={Me2}
+										src={Me3}
 										alt="Alvalens"
 										layout="fill"
 										objectFit="cover"
@@ -146,7 +146,7 @@ export default function Page() {
 									}}
 									className="w-full h-full">
 									<Image
-										src={Me3}
+										src={Me1}
 										alt="Alvalens"
 										layout="fill"
 										objectFit="cover"
@@ -172,10 +172,10 @@ export default function Page() {
 							type: "spring",
 						}}>
 						<h2 className="text-2xl font-bold tracking-wider mb-3">
-							Alvalen Shafelbilyunazra
+							Bryan Jo
 						</h2>
 						<p className="text-gray-600 text-justify title text-lg">
-							Hey there, I&rsquo;m Alvalen Shafelbilyunazra, a
+							Hey there, I&rsquo;m Bryan Jo, a
 							<span className="text-black font-medium">
 								{" "}
 								tech enthusiast
@@ -183,22 +183,23 @@ export default function Page() {
 							and
 							<span className="text-black font-medium">
 								{" "}
-								aspiring Web Developer.
+								aspiring Frontend Developer.
 							</span>{" "}
-							Originating from Pasuruan, East Java, Indonesia,
+							Originating from Sungailiat, Bangka Island, Indonesia,
 							I&rsquo;m currently embarking on a fascinating
 							journey at{" "}
 							<span className="text-black font-medium">
-								Universitas Negeri Malang,
+								Universitas Bina Nusantara,
 							</span>{" "}
 							where I&rsquo;m pursuing my degree in{" "}
 							<span className="text-black font-medium">
-								Informatics Engineering.
+								Computer Science.
 							</span>{" "}
-							My passion for technology and coding knows no
-							bounds. Beyond the world of coding, I find myself
-							deeply immersed in the realms of design, Game
-							Development, and the fascinating universe of AI. I
+							I have a deep passion for technology and an endless 
+							curiosity for learning new things. I'm also highly 
+							interested in design and artificial intelligence (AI), 
+							which offers incredible opportunities to create innovative 
+							solutions across various fields. I
 							believe that in today&rsquo;s fast-paced digital
 							landscape, being a
 							<span className="text-black font-medium">
@@ -319,7 +320,7 @@ export default function Page() {
 
 								type: "spring",
 							}}>
-							Profesional Experience
+							Organizational Experience
 						</motion.h1>
 					</div>
 				</div>

@@ -7,8 +7,8 @@ import Link from "next/link";
 
 // components
 import Button from "@/components/Button";
-import Me from "../../public/img/me.jpg";
-import MeAbout from "@/public/img/me2.jpg";
+import Me from "../../public/img/me2.jpg";
+import MeAbout from "@/public/img/me.jpg";
 import Setup from "@/public/img/setup.jpg";
 import ProjectAll from "@/public/img/projects.png";
 import Hr from "@/components/Hr";
@@ -64,7 +64,7 @@ const MyPage = () => {
 											delay: 0.2,
 											type: "spring",
 										}}>
-										Alvalen Shafel
+										Bryan Jo
 									</motion.h3>
 									<motion.h1
 										className="text-black text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl font-bold my-2 md:my-5"
@@ -74,7 +74,7 @@ const MyPage = () => {
 											delay: 0.3,
 											type: "spring",
 										}}>
-										Full Stack Developer
+										Front End Developer
 									</motion.h1>
 									<motion.p
 										className="title text-md  2xl:text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem]"
@@ -84,11 +84,11 @@ const MyPage = () => {
 											delay: 0.4,
 											type: "spring",
 										}}>
-										A junior fullstack developer who
-										currently focused on Web Development.
+										An undergraduate student who
+										currently focused on Front End.
 										Other than that, I also interested in
-										UX/UI Design, Mobile and AI Development.
-										I love to learn new things and always
+										UX/UI Design, AI Development.
+										I always love to learn new things and
 										open to new opportunities.
 									</motion.p>
 									<motion.div
@@ -256,10 +256,6 @@ const MyPage = () => {
 										}}>
 										This is some of my projects that I have
 										done{" "}
-										<span className="bg-transparent md:bg-gray-100 bg-opacity-50 xl:bg-transparent">
-											{" "}
-											and currently working on.
-										</span>
 									</motion.p>
 									<motion.div
 										initial={{ y: 40, opacity: 0 }}
@@ -340,14 +336,14 @@ const MyPage = () => {
 											delay: 0.3,
 											type: "spring",
 										}}>
-										<a href="mailto:Alvalen.shafel04@gmail.com?subject=Hello&body=Hello Alvalens,">
-											alvalen.shafel04@gmail.com
+										<a href="mailto:joobrynn@gmail.com?subject=Hello&body=Hello Alvalens,">
+											joobrynn@gmail.com
 										</a>
 									</motion.p>
 									{/* icons */}
 									<div className="flex justify-center items-center space-x-4">
 										<motion.a
-											href="mailto:Alvalen.shafel04@gmail.com?subject=Hello&body=Hello Alvalens,"
+											href="mailto:joobrynn@gmail.com?subject=Hello&body=Hello Alvalens,"
 											className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
 											initial={{ y: 40, opacity: 0 }}
 											whileInView={{ y: 0, opacity: 1 }}
@@ -362,7 +358,7 @@ const MyPage = () => {
 										</motion.a>
 
 										<motion.a
-											href="https://github.com/Alvalens"
+											href="https://github.com/brynnjoo"
 											target="_blank"
 											rel="noopener noreferrer"
 											className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
@@ -378,7 +374,7 @@ const MyPage = () => {
 											/>
 										</motion.a>
 										<motion.a
-											href="https://www.instagram.com/alvalens_/"
+											href="https://www.instagram.com/bryn.joo/"
 											target="_blank"
 											rel="noopener noreferrer"
 											className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
@@ -394,7 +390,7 @@ const MyPage = () => {
 											/>
 										</motion.a>
 										<motion.a
-											href="https://www.linkedin.com/in/alvalen-shafel-8a081a254/"
+											href="https://www.linkedin.com/in/bryan-jo-5b4774292/"
 											target="_blank"
 											rel="noopener noreferrer"
 											className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
@@ -410,7 +406,7 @@ const MyPage = () => {
 											/>
 										</motion.a>
 										<motion.a
-											href="https://discordapp.com/users/bloody#6118"
+											href="https://discordapp.com/users/445750597640126466"
 											target="_blank"
 											rel="noopener noreferrer"
 											className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"

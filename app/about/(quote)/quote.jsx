@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 import { useIntersectionObserver } from "./useIntersectionObserver";
 
 export default function Quote() {
-	const text1 = '"There are no limits to what you can accomplish'.split(" ");
-	const text2 = 'except the limits you place on your own thinking."'.split(
+	const text1 = '"Seek not the absence of fear,'.split(" ");
+	const text2 = 'but the courage to dance with it."'.split(
 		" "
 	);
 	const [ref, isIntersecting] = useIntersectionObserver();

@@ -13,31 +13,31 @@ export default function Skills() {
 			<div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8">
 				<div className="flex flex-col items-center gap-2">
 					<CodepenIcon className="w-12 h-12" />
-					<div className="font-medium">Web Development</div>
-				</div>
-				<div className="flex flex-col items-center gap-2">
-					<WebhookIcon className="w-12 h-12" />
-					<div className="font-medium">REST API</div>
-				</div>
-				<div className="flex flex-col items-center gap-2">
-					<ActivityIcon className="w-12 h-12" />
-					<div className="font-medium">Machine Learning</div>
-				</div>
-				<div className="flex flex-col items-center gap-2">
-					<MobileIcon className="w-12 h-12" />
-					<div className="font-medium">Mobile Development</div>
-				</div>
-				{/* <div className="flex flex-col items-center gap-2">
-					<CloudIcon className="w-12 h-12" />
-					<div className="font-medium">Cloud Computing</div>
+					<div className="font-medium">Front End</div>
 				</div>
 				<div className="flex flex-col items-center gap-2">
 					<BarChartIcon className="w-12 h-12" />
 					<div className="font-medium">Data Analysis</div>
 				</div>
 				<div className="flex flex-col items-center gap-2">
+					<ActivityIcon className="w-12 h-12" />
+					<div className="font-medium">Network Engineering</div>
+				</div>
+				<div className="flex flex-col items-center gap-2">
+					<WebhookIcon className="w-12 h-12" />
+					<div className="font-medium">Web Developer</div>
+				</div>
+				{/* <div className="flex flex-col items-center gap-2">
+					<CloudIcon className="w-12 h-12" />
+					<div className="font-medium">Cloud Computing</div>
+				</div>
+				<div className="flex flex-col items-center gap-2">
 					<ComputerIcon className="w-12 h-12" />
 					<div className="font-medium">Cybersecurity</div>
+				</div>
+				<div className="flex flex-col items-center gap-2">
+					<MobileIcon className="w-12 h-12" />
+					<div className="font-medium">Mobile Development</div>
 				</div>
 				<div className="flex flex-col items-center gap-2">
 					<PackageIcon className="w-12 h-12" />

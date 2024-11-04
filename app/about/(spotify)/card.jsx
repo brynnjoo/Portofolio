@@ -41,7 +41,7 @@ useEffect(() => {
 						className="z-0 opacity-20 absolute"
 					/>
 					)}
-					<div className="z-10  flex items-center">
+					{/* <div className="z-10  flex items-center">
 						<FontAwesomeIcon
 							icon={faSpotify}
 							className="text-black text-5xl me-5 md:me-1 xl:me-8"
@@ -52,20 +52,20 @@ useEffect(() => {
 								: "Currently offline"}
 						</p>
 						{result.isPlaying && <PlayingAnimation />}
-					</div>
+					</div> */}
 					{result.isPlaying && (
 						<div className="z-10 rounded-lg ms-5">
 							<div className="flex items-center space-x-4">
 								<div className="overflow-hidden">
-									<a
+									{/* <a
 										href={result.songUrl}
 										target="_blank"
 										className="block font-semibold w-full truncate text-blue-500">
 										{result.title}
-									</a>
-									<p className="truncate text-gray-500">
+									</a> */}
+									{/* <p className="truncate text-gray-500">
 										{result.artist}
-									</p>
+									</p> */}
 								</div>
 							</div>
 						</div>
