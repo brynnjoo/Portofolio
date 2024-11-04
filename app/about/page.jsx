@@ -185,7 +185,7 @@ export default function Page() {
     where I&apos;m pursuing my degree in{" "}
     <span className="text-black font-medium"> Computer Science. </span>
     I have a deep passion for technology and an endless curiosity for learning new things. 
-    I'm also highly interested in design and artificial intelligence (AI), 
+    I&apos;m also highly interested in design and artificial intelligence (AI), 
     which offers incredible opportunities to create innovative solutions across various fields. 
     I believe that in today&apos;s fast-paced digital landscape, being a 
     <span className="text-black font-medium"> lifelong learner </span>
