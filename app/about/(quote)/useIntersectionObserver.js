@@ -1,4 +1,3 @@
-// useIntersectionObserver.js
 import { useEffect, useState, useRef } from "react";
 
 export function useIntersectionObserver() {
@@ -6,6 +5,7 @@ export function useIntersectionObserver() {
 	const ref = useRef(null);
 
 	useEffect(() => {
+		const currentRef = ref.current; // Simpan nilai ref.current ke dalam variabel lokal
 		const observer = new IntersectionObserver(
 			([entry]) => {
 				setIsIntersecting(entry.isIntersecting);
@@ -17,13 +17,13 @@ export function useIntersectionObserver() {
 			}
 		);
 
-		if (ref.current) {
-			observer.observe(ref.current);
+		if (currentRef) { // Gunakan currentRef
+			observer.observe(currentRef);
 		}
 
 		return () => {
-			if (ref.current) {
-				observer.unobserve(ref.current);
+			if (currentRef) { // Gunakan currentRef
+				observer.unobserve(currentRef);
 			}
 		};
 	}, []);

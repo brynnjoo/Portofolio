@@ -175,41 +175,23 @@ export default function Page() {
 							Bryan Jo
 						</h2>
 						<p className="text-gray-600 text-justify title text-lg">
-							Hey there, I&rsquo;m Bryan Jo, a
-							<span className="text-black font-medium">
-								{" "}
-								tech enthusiast
-							</span>{" "}
-							and
-							<span className="text-black font-medium">
-								{" "}
-								aspiring Frontend Developer.
-							</span>{" "}
-							Originating from Sungailiat, Bangka Island, Indonesia,
-							I&rsquo;m currently embarking on a fascinating
-							journey at{" "}
-							<span className="text-black font-medium">
-								Universitas Bina Nusantara,
-							</span>{" "}
-							where I&rsquo;m pursuing my degree in{" "}
-							<span className="text-black font-medium">
-								Computer Science.
-							</span>{" "}
-							I have a deep passion for technology and an endless 
-							curiosity for learning new things. I'm also highly 
-							interested in design and artificial intelligence (AI), 
-							which offers incredible opportunities to create innovative 
-							solutions across various fields. I
-							believe that in today&rsquo;s fast-paced digital
-							landscape, being a
-							<span className="text-black font-medium">
-								{" "}
-								lifelong learner
-							</span>{" "}
-							is not just a choice, but a necessity. Let&rsquo;s
-							connect and explore this ever-evolving world of tech
-							together!
-						</p>
+    Hey there, I&apos;m Bryan Jo, a
+    <span className="text-black font-medium"> tech enthusiast </span>
+    and
+    <span className="text-black font-medium"> aspiring Frontend Developer.</span>
+    Originating from Sungailiat, Bangka Island, Indonesia,
+    I&apos;m currently embarking on a fascinating journey at{" "}
+    <span className="text-black font-medium"> Universitas Bina Nusantara, </span>
+    where I&apos;m pursuing my degree in{" "}
+    <span className="text-black font-medium"> Computer Science. </span>
+    I have a deep passion for technology and an endless curiosity for learning new things. 
+    I'm also highly interested in design and artificial intelligence (AI), 
+    which offers incredible opportunities to create innovative solutions across various fields. 
+    I believe that in today&apos;s fast-paced digital landscape, being a 
+    <span className="text-black font-medium"> lifelong learner </span>
+    is not just a choice, but a necessity. Let&apos;s connect and explore this ever-evolving world of tech together!
+</p>
+
 						<Card />
 					</motion.div>
 				</div>
