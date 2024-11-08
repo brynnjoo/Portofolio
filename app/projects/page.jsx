@@ -6,9 +6,9 @@ import Button from "@/components/Button";
 import Image from "next/legacy/image";
 
 // images
-import ReactChat1 from "@/public/projects/trivia/trivia1.png";
-import ReactChat2 from "@/public/projects/trivia/trivia2.png";
-import ReactChat3 from "@/public/projects/trivia/trivia3.png";
+import ReactChat1 from "@/public/projects/toys/toys.jpg";
+import ReactChat2 from "@/public/projects/toys/toys2.png";
+import ReactChat3 from "@/public/projects/toys/toys3.png";
 import ProjectAll from "@/public/img/projects.png";
 
 import Hr from "@/components/Hr";
@@ -175,35 +175,27 @@ export default function Page() {
 							type: "spring",
 						}}>
 						<h2 className="text-2xl font-bold tracking-wider mb-3">
-							Generative Trivia
+							HI-Toyz
 						</h2>
 						<p className="text-gray-600 text-justify title text-lg">
-							A generative trivia website built with Next.js,
-							Firebase, NextAuth, Google OAuth, and TypeScript.
-							Users can generate trivia questions for predefined
-							school subjects and answer them with a unique
-							interactive input style. The application supports
-							user authentication with Google and stores data in
-							Firestore. You can see the source code of this
-							project on my github account or preview the project
-							by clicking the button below.
+							A toys website where people can login, register, see the history of the store, see the most popular products, and order the product that they want.
 						</p>{" "}
 						<div className="mt-3">
-							<Button variation="primary">
+							{/* <Button variation="primary">
 								<Link href="projects/trivia">More</Link>
-							</Button>
-							<Button variation="secondary">
+							</Button> */}
+							{/* <Button variation="secondary">
 								<a
 									href="https://generative-trivia.vercel.app/"
 									target="_blank"
 									rel="noopener noreferrer">
 									Preview
 								</a>
-							</Button>
+							</Button> */}
 						</div>
 					</motion.div>
 				</div>
-				<div className="mt-16 flex flex-col justify-start items-center w-full pl-10 md:pl-32">
+				{/* <div className="mt-16 flex flex-col justify-start items-center w-full pl-10 md:pl-32">
 					<div className="flex justify-start items-start flex-col my-5 self-start ">
 						<Hr />
 						<motion.h1
@@ -223,10 +215,10 @@ export default function Page() {
 							Other Note Worthy Projects
 						</motion.h1>
 					</div>
-				</div>
+				</div> */}
 
 				{/* choose category */}
-				<motion.div
+				{/* <motion.div
 					initial={{
 						opacity: 0,
 						x: 200,
@@ -251,10 +243,10 @@ export default function Page() {
 							{category[key]}
 						</button>
 					))}
-				</motion.div>
+				</motion.div> */}
 
 				{/* projects */}
-				<div className="w-screen mx-auto container gap-4 px-10 grid grid-cols-1 md:grid-cols-2 mb-10 cursor-pointer">
+				{/* <div className="w-screen mx-auto container gap-4 px-10 grid grid-cols-1 md:grid-cols-2 mb-10 cursor-pointer">
 					{projects.map((project, index) => (
 						<ProjectCard
 							project={project}
@@ -262,7 +254,7 @@ export default function Page() {
 							activeCategory={activeCategory}
 						/>
 					))}
-				</div>
+				</div> */}
 				{/* view in archive btn */}
 				<motion.div
 					initial={{
